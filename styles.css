@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Montserrat-semi-bold";
+    src: url("/Font/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+
+
+
+header {
+    color: #09CFFC;
+    background-color: snow;
+}
+
+body {
+    font-family: "Montserrat-semi-bold", monospace;
+    color: #09CFFC;
+    background-color: snow;
+    font-size: 150%;
+}
+
+.section {
+    padding: 0px 0px 200px 30px;
+    margin: 80px 0px 100px 0px;
+    border-bottom: 1px solid #a7e1ef;
+}
+
+.sub-section {
+    margin: 30px 0px 50px 0px;
+}
+
+.line-break {
+    height: 2px;
+    width: fit-content;
+    background-color: aquamarine;
+}
+
+.nav-item {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.tech-stack-icon {
+    margin: 10px 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.contact-icon {
+    margin: 10px 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+    border: 2px solid orange;
+    border-radius: 100%;
+    background-image: url("/images/avatar.png");
+    background-size: cover;
+}
+
+#main-page {
+    position: relative;
+    left: 25%;
+    width: 75%;
+}
+
+#navigation-container {
+    color: white;
+    background-color: inherit;
+}
+
+
+#index-title {
+    padding-left: 30px;
+    font-size: 3em;
+    color: inherit;
+    /* text-shadow: 0px 0px 4px black; */
+}
+
+#index-title-role {
+    color: inherit;
+    /* text-shadow: 0px 0px 1px grey; */
+}
+
+#floating-button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    color: #09CFFC;
+    font-size: 18px;
+    border-radius: 30%;
+    border: 2px solid #09CFFC;
+    background-color: snow;
+    cursor: pointer;
+    text-align: center;
+}
+
+#left-navigation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #09CFFC;
+}
+
+#navigation-items-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+
+}
+
+#navigation-container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+#navigation-bar-name {
+    margin: 10px auto;
+    font-weight: bold;
+    color: white;
+}
