@@ -17,6 +17,12 @@ body {
     font-size: 150%;
 }
 
+.relative-right {
+    position: relative;
+    left: 25%;
+    width: 75%;
+}
+
 .section {
     padding: 0px 0px 200px 30px;
     margin: 80px 0px 100px 0px;
@@ -65,13 +71,11 @@ body {
 }
 
 #main-page {
-    position: relative;
-    left: 25%;
-    width: 75%;
+    background-color: snow;
 }
 
 #navigation-container {
-    color: white;
+    color: inherit;
     background-color: inherit;
 }
 
