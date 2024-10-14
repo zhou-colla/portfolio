@@ -3,8 +3,6 @@
     src: url("/Font/Montserrat/static/Montserrat-SemiBold.ttf");
 }
 
-
-
 header {
     color: #09CFFC;
     background-color: snow;
@@ -89,7 +87,6 @@ footer {
     color: inherit;
     background-color: inherit;
 }
-
 
 #index-title {
     padding-left: 30px;
